@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* 通配符选择器：作用最广 */
+*{
+    font-family: Arial, Helvetica, sans-serif, "得意黑";
+    color: rgb(32, 35, 35);
+}
+/* 标签选择器：作用一类标签 */
+p{
+    color: #999;
+    font-size: 18px;
+}
+
+img{
+    width: 200px;
+}
+/* 类选择器：重复模块 */
+.title{
+    color: blueviolet;
+}
