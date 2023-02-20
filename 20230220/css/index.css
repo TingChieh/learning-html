@@ -9,29 +9,50 @@
 h1 {
     font-family: "得意黑";
     color: rgb(118, 165, 180);
+    text-align: center;
+    text-shadow: 1px 3px 3px #9991e9;
 }
 
-a {
-    text-decoration: none;
+h2 {
+    text-align: center;
+    color: rgb(44, 122, 148);
+    font-family: "得意黑";
+    text-shadow: 1px 3px 3px #9991e9;
 }
 
 a {
     color: #9991e9;
-    text-decoration: overline;
+    text-decoration: none;
+    text-align: center;
+}
+.links {
+    text-align: center;
 }
 
-.simple-Chinese{
+.span {
+    background-color: aquamarine;
+}
+
+.simple-Chinese {
     text-shadow: 2px 2px #747272;
+    text-align: right;
 }
 
-p {
+
+
+.text {
     font-size: 16px;
-    color: #999;
+    color: #6a6262;
     letter-spacing: 1px;
-    word-spacing: 20px;
+    word-spacing: auto;
     line-height: 4-px;
-    text-transform: uppercase;
-    text-indent: 50px
+    text-indent: 8px;
+}
+
+.list {
+    background: url(../img/play.png) no-repeat left center;
+    background-size: 16px;
+    padding-left: 18px;
 }
 
 .sel {
@@ -42,6 +63,22 @@ p {
     text-decoration: line-through;
     color: rgb(193, 114, 75);
 }
+
+.line {
+    width: 300px;
+    /* word-wrap: normal; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px rgb(230, 129, 92);
+    color: #9991e9;
+}
+
+.text {
+    text-align: left;
+}
+
+.text
 
 #unique {
     color: coral;
