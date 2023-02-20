@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* 通配符 */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747272;
+}
+
+h1 {
+    font-family: "得意黑";
+    color: rgb(118, 165, 180);
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #9991e9;
+    text-decoration: overline;
+}
+
+.simple-Chinese{
+    text-shadow: 2px 2px #747272;
+}
+
+p {
+    font-size: 16px;
+    color: #999;
+    letter-spacing: 1px;
+    word-spacing: 20px;
+    line-height: 4-px;
+    text-transform: uppercase;
+    text-indent: 50px
+}
+
+.sel {
+    color: orangered;
+}
+
+.del {
+    text-decoration: line-through;
+    color: rgb(193, 114, 75);
+}
+
+#unique {
+    color: coral;
+    font-size: 16px;
+    font-weight: bolder;
+}
