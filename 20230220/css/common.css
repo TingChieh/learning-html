@@ -1,22 +1,35 @@
 @charset "utf-8";
+
 /* 通配符选择器:作用范围最广 */
-*{
+* {
 	font-family: Arial, Helvetica, sans-serif, "微软雅黑", "宋体";
 	color: #333;
 }
+
 /* 标签选择器:作用一类标签 */
-p{
+p {
 	color: #999;
 	font-size: 18px;
 }
-img{
+
+img {
 	width: 200px;
 }
+
 /* 类选择器:重复模块 */
-.title{
+.title {
 	color: blueviolet;
 }
+
 /* id选择器:唯一 */
-#toptitle{
+#toptitle {
 	color: blue;
+}
+
+.sidebar {
+	width: 30%;
+	padding: 1.5em;
+	margin-left: 1.5em;
+	background-color: #fff;
+	border-radius: .5em;
 }
