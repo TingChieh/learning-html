@@ -76,7 +76,8 @@ header {
     list-style-type: none;
     border-radius: .2em;
     text-transform: uppercase;
-  }
+    box-shadow: 4px 3px #6b6b6b33;
+}
   .site-nav > li {
     margin-top: 0;
   }
@@ -105,3 +106,14 @@ header {
     color: #eee;
     font-family: 得意黑;
   }
+
+  a {
+    color: #534e4e;
+    transition: background-color 0.5s;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
